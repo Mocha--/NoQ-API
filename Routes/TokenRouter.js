@@ -2,7 +2,7 @@ const express = require('express');
 const tokenRouter = express.Router();
 
 tokenRouter.route('/token')
-    .post((req, res) => {
+    .get((req, res) => {
         res.send({
             token: 'hehehe'
         });
