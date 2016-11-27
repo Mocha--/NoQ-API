@@ -4,7 +4,7 @@ const tokenRouter = express.Router();
 tokenRouter.route('/token')
     .get((req, res) => {
         res.send({
-            token: 'lalala'
+            token: 'lalala1'
         });
     });
 
